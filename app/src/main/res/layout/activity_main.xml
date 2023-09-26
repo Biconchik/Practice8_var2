@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="4"
+    android:rowCount="6"
+
+    >
+
+
+    <TextView
+        android:id = "@+id/textView1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:text="O"
+        android:textAlignment="textEnd"
+        android:textSize="40dp"
+        />
+
+    <Button
+        android:id="@+id/button001"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:text="C"
+        android:onClick="onOperator"/>
+
+    <Button
+        android:id="@+id/Button002"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:text="/"
+        android:onClick="onOperator"/>
+
+    <Button
+
+        android:id="@+id/Button7"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:onClick="setNumber"/>
+
+    <Button
+
+        android:id="@+id/Button8"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:onClick="setNumber"/>
+
+    <Button
+
+        android:id="@+id/Button9"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:onClick="setNumber"/>
+
+    <Button
+
+        android:id="@+id/Button003"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:onClick="onOperator"/>
+
+    <Button
+
+        android:id="@+id/Button4"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:onClick="setNumber"/>
+
+    <Button
+
+        android:id="@+id/Button5"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:onClick="setNumber"/>
+
+    <Button
+
+        android:id="@+id/Button6"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:onClick="setNumber"/>
+
+    <Button
+
+        android:id="@+id/Button004"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:onClick="onOperator"/>
+
+    <Button
+
+        android:id="@+id/Button1"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:onClick="setNumber"/>
+
+    <Button
+
+        android:id="@+id/Button2"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:onClick="setNumber"/>
+
+    <Button
+
+        android:id="@+id/Button3"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:onClick="setNumber"/>
+
+    <Button
+        android:id="@+id/Button005"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:text="+"
+        android:onClick="onOperator"/>
+
+    <Button
+        android:id="@+id/Button111"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:text="="
+        android:onClick="result"/>
+
+    <Button
+
+        android:id="@+id/Button0"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:onClick="setNumber"/>
+
+
+</GridLayout>
